@@ -1,0 +1,37 @@
+body {
+    background-color: #ffb6c1; /* Cor de fundo rosa claro */
+    font-family: 'Open Sans', sans-serif; /* Fonte bonita */
+  }
+  
+  h1, h2, h3 {
+    color: #8B0000; /* Cor vermelha para títulos */
+    text-shadow: 2px 2px #fff; /* Sombra branca para títulos */
+  }
+  
+  #dating-request {
+    background-color: #fff; /* Cor de fundo branca para a caixa de pedido */
+    border: 2px solid #8B0000; /* Borda vermelha para a caixa de pedido */
+    box-shadow: 4px 4px 8px #aaa; /* Sombra cinza para a caixa de pedido */
+    padding: 20px; /* Espaçamento interno para a caixa de pedido */
+    position: absolute; /* Posicionamento absoluto para a caixa de pedido */
+    top: 50%; /* Centralizar a caixa de pedido na tela */
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #dating-request p {
+    font-size: 1.5em; /* Tamanho de fonte grande para o texto do pedido */
+    text-align: center; /* Centralizar o texto do pedido */
+    margin-bottom: 20px; /* Espaçamento abaixo do texto do pedido */
+  }
+  
+  #dating-request button {
+    background-color: #8B0000; /* Cor de fundo vermelha para os botões */
+    color: #fff; /* Cor branca para o texto dos botões */
+    border: none; /* Sem borda para os botões */
+    padding: 10px 20px; /* Espaçamento interno para os botões */
+    font-size: 1.2em; /* Tamanho de fonte grande para o texto dos botões */
+    cursor: pointer; /* Mudar o cursor para mãozinha ao passar por cima */
+    margin-right: 10px; /* Espaçamento entre os botões */
+  }
+  
